@@ -1,0 +1,15 @@
+[package]
+name = "rtlsdr-rs"
+version = "2.1.0"
+authors = ["Collins Huff <collinsrhuff@gmail.com>", "Mick Koch <mick@kochm.co>"]
+description = "High-level, multithreading interface to RTL-SDR"
+license = "GPL-2.0+"
+repository = "https://github.com/collinsrhuffiii/rtlsdr-rs"
+keywords = ["rtl-sdr", "rtlsdr", "librtlsdr", "threading", "multithreading"]
+
+[dependencies]
+
+libc = "0.2.8"
+
+[build-dependencies]
+pkg-config = "0.3.6"
